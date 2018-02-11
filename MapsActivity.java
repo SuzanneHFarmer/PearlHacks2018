@@ -13,6 +13,7 @@ import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
@@ -41,43 +42,43 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
         LatLng alleghany = new LatLng(36.494084, -81.119608);
-        mMap.addMarker(new MarkerOptions().position(alleghany).title("Alleghany").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(alleghany).title("Alleghany").snippet("2 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng ashe = new LatLng(36.433967, -81.471839);
-        mMap.addMarker(new MarkerOptions().position(ashe).title("Ashe").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(ashe).title("Ashe").snippet("2 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng watauga = new LatLng(36.194182, -81.734942);
-        mMap.addMarker(new MarkerOptions().position(watauga).title("Watauga").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(watauga).title("Watauga").snippet("2 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng avery = new LatLng(36.119841, -81.909826);
-        mMap.addMarker(new MarkerOptions().position(avery).title("Avery").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(avery).title("Avery").snippet("2 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng mitchell = new LatLng(36.027776, -82.149605);
-        mMap.addMarker(new MarkerOptions().position(mitchell).title("Mitchell").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(mitchell).title("Mitchell").snippet("2 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng yancey = new LatLng(35.888897, -82.345189);
-        mMap.addMarker(new MarkerOptions().position(yancey).title("Yancey").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(yancey).title("Yancey").snippet("1 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng mcdowell = new LatLng(35.698440, -82.08429);
-        mMap.addMarker(new MarkerOptions().position(mcdowell).title("Mcdowell").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(mcdowell).title("Mcdowell").snippet("0 venomous snakes & 6 nonvenomous snakes in your area."));
 
         LatLng madison = new LatLng(35.797328, -82.684025);
-        mMap.addMarker(new MarkerOptions().position(madison).title("Madison").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(madison).title("Madison").snippet("1 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng buncombe = new LatLng(35.593138, -82.475276);
-        mMap.addMarker(new MarkerOptions().position(buncombe).title("Buncombe").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(buncombe).title("Buncombe").snippet("1 venomous snakes & 7 nonvenomous snakes in your area."));
 
         LatLng haywood = new LatLng(35.624394, -82.993161);
-        mMap.addMarker(new MarkerOptions().position(haywood).title("Haywood").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(haywood).title("Haywood").snippet("2 venomous snakes & 3 nonvenomous snakes in your area."));
 
         LatLng henderson = new LatLng(35.318728, -82.4609534);
-        mMap.addMarker(new MarkerOptions().position(henderson).title("Henderson").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(henderson).title("Henderson").snippet("0 venomous snakes & 9 nonvenomous snakes in your area."));
 
         LatLng transylvania = new LatLng(35.219053, -82.777858);
         mMap.addMarker(new MarkerOptions().position(transylvania).title("Transylvania").snippet("To find out which region you're in, tap the circle below:"));
 
         LatLng graham = new LatLng(35.322866, -83.807399);
-        mMap.addMarker(new MarkerOptions().position(graham).title("Graham").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(graham).title("Graham").snippet("O venomous snakes and 1 nonvenomous snake in the area"));
 
         LatLng cherokee = new LatLng(35.477057, -83.320586);
         mMap.addMarker(new MarkerOptions().position(cherokee).title("Cherokee").snippet("To find out which region you're in, tap the circle below:"));
@@ -86,7 +87,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(clay).title("Clay").snippet("To find out which region you're in, tap the circle below:"));
 
         LatLng macon = new LatLng(35.196878, -83.37151);
-        mMap.addMarker(new MarkerOptions().position(macon).title("Macon").snippet("To find out which region you're in, tap the circle below:"));
+        mMap.addMarker(new MarkerOptions().position(macon).title("Macon").snippet("1 venomous snakes & 2 nonvenomous snakes in your area."));
 
         LatLng swain = new LatLng(35.432896, -83.464355);
         mMap.addMarker(new MarkerOptions().position(swain).title("Swain").snippet("To find out which region you're in, tap the circle below:"));
@@ -265,7 +266,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 //System.out.println("______");
             }
         });
-
 
     }
 }
